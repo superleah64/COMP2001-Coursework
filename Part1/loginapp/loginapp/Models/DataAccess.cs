@@ -20,11 +20,11 @@ namespace loginapp.Models
             parameter.Direction = System.Data.ParameterDirection.Output;
             parameter.Size = 50;
 
-            Database.ExecuteSqlRaw("exec RegisterUser @FirstName, @LastName, @EmailAddress, @UserPassword, @ResponseMessage",
+            Database.ExecuteSqlRaw("exec RegisterUser @FirstName, @LastName, @EmailAddress, @UserPassword",
             new SqlParameter("@FirstName", user.FirstName),
             new SqlParameter("@LastName", user.LastName),
             new SqlParameter("@EmailAddress", user.EmailAddress),
-            new SqlParameter("@UserPassword", user.UserPassword));
+            new SqlParameter("@UserPassword", user.UserPassword), parameter);
 
             OUTPUT = parameter.Value.ToString();
         }

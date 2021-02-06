@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\loginapp\\loginapp\\loginapp.csproj": {}
+    "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\LoginApp\\loginapp\\loginapp.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\loginapp\\loginapp\\loginapp.csproj": {
+    "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\LoginApp\\loginapp\\loginapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\loginapp\\loginapp\\loginapp.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\LoginApp\\loginapp\\loginapp.csproj",
         "projectName": "loginapp",
-        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\loginapp\\loginapp\\loginapp.csproj",
+        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\LoginApp\\loginapp\\loginapp.csproj",
         "packagesPath": "C:\\Users\\leahhumphries\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\loginapp\\loginapp\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\LoginApp\\loginapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leahhumphries\\AppData\\Roaming\\NuGet\\NuGet.Config",

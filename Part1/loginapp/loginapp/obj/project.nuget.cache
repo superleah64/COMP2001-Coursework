@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ls4h4kam/3HI6nicPnppJoS9vLOK19pKXTplXOQH/ZER/4CbO672sz7hbPBqdVtg71Qe8mR2t8pFfDRvzL5FxQ==",
+  "dgSpecHash": "wxmpkKH/H3UJI9w2Db1azCplN2uNY2g8Pm8XQ6YEnMScsMSFnJ72MIX//CX5YPIP2scZ37VSGiFrKMXEkNDONA==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\loginapp\\loginapp\\loginapp.csproj",
+  "projectFilePath": "\\\\Mac\\Home\\Documents\\GitHub\\COMP2001-Coursework\\Part1\\LoginApp\\loginapp\\loginapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leahhumphries\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\leahhumphries\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
