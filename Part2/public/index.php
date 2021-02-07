@@ -1,6 +1,15 @@
 <?php
-/*/*include_once('header.php');
-*/
+echo "<html><body><table border =1>\n\n";
+$f = fopen("resources-fa52d37f-0e5c-4987-b583-6d5230a3963e-plymouth-wildflower-meadows.csv", "r");
+while (($line = fgetcsv($f)) !== false) {
+    echo "<tr>";
+    foreach ($line as $cell) {
+        echo "<td>" . htmlspecialchars($cell) . "</td>";
+    }
+    echo "</tr>\n";
+}
+fclose($f);
+echo "\n</table></body></html>";
 ?>
 
 <!DOCTYPE html>
@@ -66,6 +75,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://plymouth.thedata.place/dataset/76ba8e2c-c5a1-4fb8-87a9-60b7c1530db1/resource/79a496aa-fd96-4ab4-a073-cfbe997f3586/download/pccneighbourhoods.geojson">
                 <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </div>
@@ -75,16 +85,16 @@
 <div class="container-fluid text-center">
     <div class="row content">
         <div class="col-sm-2 sidenav">
-            <p><a href="#">Link</a></p>
-            <p><a href="#">Link</a></p>
+            <p><a href="#">Machine Readable Format</a></p>
+            <p><a href="#">Human Readable Format</a></p>
             <p><a href="#">Link</a></p>
         </div>
         <div class="col-sm-8 text-left">
-            <h1>Welcome</h1>
-            <p>This page displays a list of the neighbourhood boundaries in Plymouth.</p>
+            <h1>Wildflower Meadows</h1>
+            <p>This page displays a list of the meadows containing wildflowers in Plymouth..</p>
             <hr>
-            <h3>Test</h3>
-            <p>Lorem ipsum...</p>
+            <h3>Project Vision</h3>
+            <p>This project displays csv data of Plymouth's wildflower meadows in a machine readable and human readable format.</p>
         </div>
         <div class="col-sm-2 sidenav">
             <div class="well">
@@ -98,11 +108,8 @@
 </div>
 
 <footer class="container-fluid text-center">
-    <p>Footer Text</p>
+    <p>Leah Humphries | School of Computing, Engineering and Mathematics | 2021</p>
 </footer>
 
 </body>
 </html>
---><?php
-/*/*include_once('footer.php');*/
-?>
